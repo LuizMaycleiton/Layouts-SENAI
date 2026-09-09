@@ -1,0 +1,97 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa1 {
+    background-color: rgba(180, 140, 218, 0.492);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.bola-roxa {
+    margin-top: 150px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.caixa2 {
+    background-color: rgba(173, 227, 92, 0.694);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.bola-verde {
+    margin-top: 80px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.caixa3 {
+    background-color: rgba(238, 105, 105, 0.599);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.bola-red {
+    margin-top: 80px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.caixa4 {
+    background-color: rgba(197, 197, 4, 0.75);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.bola-amarela {
+    margin-top: 80px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.caixa5 {
+    background-color: rgba(56, 168, 212, 0.766);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.bola-azul {
+    margin-top: 80px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}

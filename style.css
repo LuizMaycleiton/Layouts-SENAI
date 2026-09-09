@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightslategrey;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    text-align: center;
+    font-size: 56px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
